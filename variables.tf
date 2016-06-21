@@ -3,9 +3,14 @@ variable "aws_region" {
   default     = "us-west-2"
 }
 
+variable "aws_availability_zone" {
+  description = "AWS zone"
+  default     = "us-west-2b"
+}
+
 variable "aws_prefix" {
   description = "AWS prefix to name and tag resources with"
-  default     = "f5-lab"
+  default     = "f5-lab-maratoid"
 }
 
 variable "aws_local_public_key" {
