@@ -10,7 +10,7 @@ variable "aws_availability_zone" {
 
 variable "aws_prefix" {
   description = "AWS prefix to name and tag resources with"
-  default     = "f5-lab-maratoid"
+  default     = "f5-lab"
 }
 
 variable "aws_local_public_key" {
